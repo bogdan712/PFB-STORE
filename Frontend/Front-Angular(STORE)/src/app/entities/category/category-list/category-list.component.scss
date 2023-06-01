@@ -1,0 +1,77 @@
+.imgCategory {
+    width: 100px;
+    height: 100px;
+}
+
+.table {
+    width: 90%;
+    margin: 10px auto;
+    border: 1px solid black;
+}
+
+.thead-dark {
+    background-color: black;
+    color: white;
+    height: 40px;
+    vertical-align: middle;
+}
+
+tbody {
+    vertical-align: middle;
+}
+
+button {
+    margin: 10px;
+    padding: 5px;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.thead-dark {
+    background-color: #333;
+    color: #fff;
+}
+
+th {
+    padding: 10px;
+    text-align: left;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.imgCategory {
+    max-width: 100px;
+    height: auto;
+}
+
+#btnNavToCategoryItems,
+#btnEditarCategory,
+#btnEliminarCategory {
+    padding: 8px 12px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#btnNavToCategoryItems:hover,
+#btnEditarCategory:hover,
+#btnEliminarCategory:hover {
+    background-color: #ffcc00;
+}

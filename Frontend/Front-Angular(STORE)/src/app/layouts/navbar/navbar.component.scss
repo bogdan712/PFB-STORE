@@ -1,0 +1,14 @@
+.navbar{
+    height: 80px;
+}
+.navbar-brand{
+    margin-left: 10px;
+}
+.nav-link:hover {
+    color: #ffcc00;
+}
+
+.active .nav-link {
+    color: #ffcc00;
+    font-weight: bold;
+}
