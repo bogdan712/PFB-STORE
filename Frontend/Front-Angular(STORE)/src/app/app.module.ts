@@ -15,6 +15,9 @@ import { CategoryFormComponent } from './entities/category/category-form/categor
 import { ItemListComponent } from './entities/item/item-list/item-list.component';
 import { ItemFormComponent } from './entities/item/item-form/item-form.component';
 import { HttpRequestInterceptor } from './config/interceptors/http-request-interceptor.interceptor';
+import { LogInComponent } from './log-in/log-in.component';
+import { IniciarSessionComponent } from './log_in/iniciar-session/iniciar-session.component';
+import { RegistrarComponent } from './log_in/registrar/registrar.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +28,10 @@ import { HttpRequestInterceptor } from './config/interceptors/http-request-inter
     CategoryListComponent,
     CategoryFormComponent,
     ItemListComponent,
-    ItemFormComponent
+    ItemFormComponent,
+    LogInComponent,
+    IniciarSessionComponent,
+    RegistrarComponent,
   ],
   imports: [
     BrowserModule,
