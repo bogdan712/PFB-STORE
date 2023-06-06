@@ -16,7 +16,7 @@ import { ItemListComponent } from './entities/item/item-list/item-list.component
 import { ItemFormComponent } from './entities/item/item-form/item-form.component';
 import { HttpRequestInterceptor } from './config/interceptors/http-request-interceptor.interceptor';
 import { LogInComponent } from './log-in/log-in.component';
-import { IniciarSessionComponent } from './log_in/iniciar-session/iniciar-session.component';
+import { IniciarSesionComponent } from './log_in/iniciar-sesion/iniciar-sesion.component';
 import { RegistrarComponent } from './log_in/registrar/registrar.component';
 
 @NgModule({
@@ -30,7 +30,7 @@ import { RegistrarComponent } from './log_in/registrar/registrar.component';
     ItemListComponent,
     ItemFormComponent,
     LogInComponent,
-    IniciarSessionComponent,
+    IniciarSesionComponent,
     RegistrarComponent,
   ],
   imports: [

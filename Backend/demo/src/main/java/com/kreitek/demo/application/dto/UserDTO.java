@@ -1,43 +1,31 @@
-package com.kreitek.demo.domain.entity;
+package com.kreitek.demo.application.dto;
 
-import javax.persistence.*;
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotEmpty;
+import javax.validation.constraints.Pattern;
 import javax.validation.constraints.Size;
-import javax.persistence.*;
-import javax.validation.constraints.*;
+import java.io.Serializable;
 
-@Entity
-@Table(name = "users")
-public class User {
+public class UserDTO implements Serializable {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "userSequence")
     private Long id;
 
-    @Column(length = 100, nullable = false)
     @Size(min = 3, max = 100)
     private String nickname;
 
-    @Column(length = 100, nullable = false)
-    @Size(min = 3, max = 100)
-    private String lastName;
-
-    @Column(length = 100, nullable = false)
     @Size(min = 3, max = 100)
     private String name;
 
-    @Column(length = 9, nullable = false)
+    @Size(min = 3, max = 100)
+    private String lastName;
+
     @Pattern(regexp = "\\d{9}", message = "Phone number must be exactly 9 digits")
     private String phoneNumber;
 
-    @Column(length = 100, nullable = false)
     @Email
     private String email;
 
-    @NotEmpty
-    @Column(length = 100, nullable = false)
-    @Size(min = 3, max = 100)
+    @Size(min = 6, message = "Password should be at least 6 characters long")
     private String password;
 
     public Long getId() {
@@ -96,3 +84,4 @@ public class User {
         this.password = password;
     }
 }
+

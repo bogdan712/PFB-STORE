@@ -1,7 +1,6 @@
 package com.kreitek.demo.domain.persistence;
 
 import com.kreitek.demo.domain.entity.Category;
-import org.springframework.stereotype.Repository;
 
 import java.util.List;
 import java.util.Optional;
