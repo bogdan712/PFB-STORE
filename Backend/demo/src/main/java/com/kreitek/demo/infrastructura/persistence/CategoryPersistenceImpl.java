@@ -1,6 +1,5 @@
 package com.kreitek.demo.infrastructura.persistence;
 
-import com.kreitek.demo.application.mapper.CategoryMapper;
 import com.kreitek.demo.domain.entity.Category;
 import com.kreitek.demo.domain.persistence.CategoryPersistence;
 import org.springframework.beans.factory.annotation.Autowired;

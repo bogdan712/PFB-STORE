@@ -1,4 +1,4 @@
-package com.kreitek.demo.domain.persistence.impl;
+package com.kreitek.demo.infrastructura.persistence;
 
 import com.kreitek.demo.domain.entity.User;
 import com.kreitek.demo.domain.persistence.UserPersistence;
